@@ -1,0 +1,199 @@
+@import url(reset.css);
+
+.conteiner-one {
+    font-size: 0;
+}
+.box{
+    width: 1200px;
+    margin: 20px auto 0;
+ 
+}
+.box div {
+    outline: 2px solid red;
+}
+
+.child{
+    outline: 2px solid green;
+    width: 400px;
+    height: 400px;
+    display: inline-block;      
+}
+div.child{
+    font-size: 16px;
+    line-height: 100%;
+    text-align: justify;
+    background: #F6FFD4;
+    padding: 20px;
+
+}
+/*-------------------------------------*/
+.conteiner-two{
+    font-size: 0;
+}
+.child-one{
+    display: inline-block;
+    width: 800px;
+    font-size: 20px;
+}
+.child-one+.child-one{
+    width: 400px;
+}
+.child-one+.child-one > div{
+    height: 133.33px;
+}
+.child-one>div{
+    height: 200px;
+}
+.child-text{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    height: 200px;
+     padding: 20px 20px 20px 20px;
+    background: #DAFBF7;
+    
+}
+.conteiner-theree{
+    font-size: 0;
+   
+}
+.blok1-left{
+   display: inline-block;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+}
+.blok1-left{
+    background: #F9E6F9;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.blok1-left+.blok1-top{
+    display: inline-block;
+    width: 800px;
+   font-size: 20px;
+}
+.blok2-botton-left{
+        background: #F9E6F9;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: justify;
+        padding: 20px;
+}
+.blok2-botton-left{
+    height: 200px;
+
+}
+.blok-botton{
+    background: #F9E6F9;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: justify;
+        padding: 20px;
+}
+
+.blok-botton-right-two{
+    font-size: 0;    
+}
+.blok-botton-right-two> div {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+}
+.block{
+    height: 100px;
+}
+.block{
+        background: #F9E6F9;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: justify;
+        padding: 20px;  
+}
+
+
+
+
+/*--------------------------------*/
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.parent-float{
+    background: turquoise;
+}
+
+.child-float{
+    font-size: 30px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.conteiner div{
+    outline: 2px solid red;
+}
+
+
+/*--------------------------------------*/
+
+.child-ty{
+        
+        float: left;
+        width: 800px;
+}
+.child-ny{
+        float: left;
+        width: 400px;
+}
+.child-tex{
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: justify;
+        padding: 20px 20px 20px 20px;
+        height: 133.33px;
+        background: #9295b7;
+}
+.child-tx{
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: justify;
+        padding: 20px 20px 20px 20px;
+        background: #9295b7;
+        height: 200px;
+}
+
+
+/*-------------------------------------------*/
+.blok1-lef{
+    background: #F9E6F9;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.blok1-to{
+    width: 800px;
+    float: left;
+}
+
+.blok-botton-right-t> div{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
