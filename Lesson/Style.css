@@ -1,0 +1,123 @@
+@import url("reset.css");
+/* ------------------------------------------- */
+
+.Body-hob{
+    background-color: rgb(96, 104, 120);
+}
+.Rezume-hob{
+    background: greenyellow; width: 1000px; margin:0 auto;
+    border: 10px solid blueviolet;
+    padding: 10px;
+ }
+ .My-hob-1{
+   margin: 0;
+ }
+ .My-hob{
+    padding: 5px 5px 5px 5px;
+    border: 5px solid rgb(32, 50, 209);
+    text-align: center;
+    background: aqua;
+    width: max-content;
+    margin: auto;
+    color: blueviolet;
+ }
+ .Personal-hob{
+    padding: 10px 0 10px;
+    color: blueviolet;
+    margin-top: 10px;
+    border: 5px solid rgb(19, 219, 102);
+    background: rgb(150, 16, 16);    
+ }
+ .Personal-hob-2{
+    background: aqua;
+    width: max-content;
+   margin: 0;
+   margin-left: 15px;
+   border: 5px solid rgb(32, 50, 209);
+ }
+ .My-education-hob{
+    margin-top: 10px;
+    border: 5px solid rgb(19, 219, 102);
+    background: rgb(150, 16, 16); 
+ }
+.education-hob-2{
+    
+    margin-left: 15px;
+    border: 5px solid rgb(32, 50, 209);
+    width: max-content;
+    background: aqua;
+    color: blueviolet;
+
+
+}
+.education-text{
+    margin-left: 15px;
+    border: 5px solid rgb(1, 86, 5);
+    width: max-content;
+    background: grey;
+    color: rgb(9, 23, 113);
+}
+.Work-hob{
+    
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 5px solid rgb(19, 219, 102);
+    background: rgb(150, 16, 16);   
+}
+.Work-hob-1{
+    margin: 0;
+    margin-left: 15px;
+    background: aqua;
+    color: blueviolet;
+    border: 5px solid rgb(32, 50, 209);
+    width: max-content;
+   
+}
+.Work-text{
+    margin-left: 15px;
+    border: 5px solid rgb(1, 86, 5);
+    width: max-content;
+    background: grey;
+    color: rgb(9, 23, 113);
+}
+.My-hobby-hob{
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 5px solid rgb(19, 219, 102);
+    background: rgb(150, 16, 16);  
+}
+.My-hobby-hob-1{
+    margin-left: 15px;
+    color: blueviolet;
+    background: aqua;
+    border: 5px solid rgb(32, 50, 209);
+    width: max-content;
+}
+.list-hob{
+margin-left: 15px;
+    border: 5px solid rgb(1, 86, 5);
+    width: max-content;
+    background: grey;
+}
+
+
+.list-text-hob{
+color: rgb(9, 23, 113);
+border: 3px solid blueviolet;
+margin: 2px;
+}
+a[href="https://vodiy.ua/ru/pdr/test/?complect=6&bilet=2"]{
+color: red;
+}
+div.My-hobby-hob{
+   color: red; 
+}
+.Body-hob{
+  /*  background: green !important; */
+}
+/*
+Селектор тегу         1
+Селектор класу        10
+Селектор по ID        100
+Стилю в атрибути тегу 1000
+*/
